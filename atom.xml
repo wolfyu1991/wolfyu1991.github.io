@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>FY&#39;s Blog</title>
+  
+  <subtitle>Welcome to FY&#39;s Blog</subtitle>
+  <link href="https://fengyu.life/atom.xml" rel="self"/>
+  
+  <link href="https://fengyu.life/"/>
+  <updated>2021-11-11T04:01:44.328Z</updated>
+  <id>https://fengyu.life/</id>
+  
+  <author>
+    <name>wolfyu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo搭建个人博客</title>
+    <link href="https://fengyu.life/2021/11/11/hexo-da-jian-ge-ren-bo-ke/"/>
+    <id>https://fengyu.life/2021/11/11/hexo-da-jian-ge-ren-bo-ke/</id>
+    <published>2021-11-11T02:19:47.000Z</published>
+    <updated>2021-11-11T04:01:44.328Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Hexo安装配置&quot;&gt;&lt;a href=&quot;#Hexo安装配置&quot; class=&quot;headerlink&quot; title=&quot;Hexo安装配置&quot;&gt;&lt;/a&gt;Hexo安装配置&lt;/h2&gt;&lt;p&gt;安装Hexo&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
