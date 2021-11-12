@@ -5,20 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Hexo搭建个人博客, FY&#39;s Blog">
-    <meta name="description" content="Hexo安装配置安装Hexo
-$ npm install -g hexo
-
-初始化
-$ hexo init blog
-$ cd blog
-
-生成，本地测试
-$ hexo g # 生成
-$ hexo s # 启动服务
-
-
-
-上传到Github">
+    <meta name="description" content="使用 Hexo + Github pages + Cloudflare 配置个人博客站点，现在把配置过程记录下来">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -337,12 +324,29 @@ $ hexo s # 启动服务
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Hexo/">
+                                <span class="chip bg-color">Hexo</span>
+                            </a>
+                        
+                            <a href="/tags/Github/">
+                                <span class="chip bg-color">Github</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" class="post-category">
+                                日常记录
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -358,14 +362,14 @@ $ hexo s # 启动服务
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-11-11
+                    2021-11-12
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    285
+                    336
                 </div>
                 
 
@@ -395,7 +399,8 @@ $ hexo s # 启动服务
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h2><p>安装Hexo</p>
+                <p>使用 Hexo + Github pages + Cloudflare 配置个人博客站点，现在把配置过程记录下来</p>
+<h2 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h2><p>安装Hexo</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">npm</span> <span class="token function">install</span> -g hexo<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>初始化</p>
@@ -437,11 +442,12 @@ hexo d -g <span class="token comment">#生成并上传</span><span aria-hidden="
 
 
 <h2 id="配置CNAME"><a href="#配置CNAME" class="headerlink" title="配置CNAME"></a>配置CNAME</h2><p>public文件夹下新建CNAME文件，内容为指定域名<code>fengyu.life</code></p>
-<h2 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h2><p>Todo</p>
+<h2 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h2><p>使用hexo-theme-matery主题，官方文档很详细</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ol>
 <li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html">使用hexo+github搭建免费个人博客详细教程 - 我是小茗同学 - 博客园 (cnblogs.com)</a></li>
 <li><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_36759224/article/details/98057466">利用Cloudflare为基于GitHub Pages的Hexo博客添加HTTPS支持_TRHX’S BLOG-CSDN博客</a></li>
 <li><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_43401436/article/details/107191688">hexo博客中插入图片失败——解决思路及个人最终解决办法_m0_43401436的博客-CSDN博客</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">hexo-theme-matery/README_CN.md at develop · blinkfox/hexo-theme-matery (github.com)</a></li>
 </ol>
 
                 
@@ -506,7 +512,15 @@ hexo d -g <span class="token comment">#生成并上传</span><span aria-hidden="
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Hexo/">
+                                    <span class="chip bg-color">Hexo</span>
+                                </a>
+                            
+                                <a href="/tags/Github/">
+                                    <span class="chip bg-color">Github</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -567,7 +581,7 @@ hexo d -g <span class="token comment">#生成并上传</span><span aria-hidden="
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            使用 Hexo + Github pages + Cloudflare 配置个人博客站点，现在把配置过程记录下来
                         
                     </div>
                     <div class="publish-info">
@@ -576,13 +590,29 @@ hexo d -g <span class="token comment">#生成并上传</span><span aria-hidden="
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            wolfyu
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" class="post-category">
+                                    日常记录
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
+                    </a>
+                    
+                    <a href="/tags/Github/">
+                        <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -605,7 +635,7 @@ hexo d -g <span class="token comment">#生成并上传</span><span aria-hidden="
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            使用 Hexo + Github pages + Cloudflare 配置个人博客站点，现在把配置过程记录下来
                         
                     </div>
                     <div class="publish-info">
@@ -614,13 +644,29 @@ hexo d -g <span class="token comment">#生成并上传</span><span aria-hidden="
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            wolfyu
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" class="post-category">
+                                    日常记录
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
+                    </a>
+                    
+                    <a href="/tags/Github/">
+                        <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -804,7 +850,7 @@ hexo d -g <span class="token comment">#生成并上传</span><span aria-hidden="
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">285</span>
+                        class="white-color">336</span>
             
             
             
